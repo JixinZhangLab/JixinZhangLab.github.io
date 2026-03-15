@@ -1,0 +1,497 @@
+---
+layout: default
+title: "学生信息填报"
+permalink: /student-form/
+---
+
+<style>
+.form-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+.form-section {
+    background: #f8f9fa;
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 24px;
+    border: 1px solid #e9ecef;
+}
+.form-section h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+.form-group {
+    margin-bottom: 18px;
+}
+.form-group label {
+    display: block;
+    font-weight: 600;
+    color: #34495e;
+    margin-bottom: 6px;
+}
+.form-group input, .form-group textarea, .form-group select {
+    width: 100%;
+    padding: 10px 14px;
+    border: 1px solid #dce1e6;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    box-sizing: border-box;
+}
+.form-group input:focus, .form-group textarea:focus, .form-group select:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.15);
+}
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+.dynamic-list {
+    background: #fff;
+    border-radius: 8px;
+    padding: 12px;
+    margin-top: 8px;
+}
+.dynamic-item {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 8px;
+    align-items: center;
+}
+.dynamic-item input {
+    flex: 1;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+    border: none;
+    font-size: 14px;
+}
+.btn-primary {
+    background: linear-gradient(135deg, #3498db, #2980b9);
+    color: white;
+}
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(52, 152, 219, 0.3);
+}
+.btn-secondary {
+    background: #e9ecef;
+    color: #495057;
+}
+.btn-secondary:hover {
+    background: #dee2e6;
+}
+.btn-success {
+    background: linear-gradient(135deg, #27ae60, #229954);
+    color: white;
+}
+.btn-small {
+    padding: 6px 12px;
+    font-size: 12px;
+}
+.output-section {
+    background: #1e272e;
+    border-radius: 12px;
+    padding: 24px;
+    margin-top: 24px;
+}
+.output-section h2 {
+    color: #f8f9fa;
+    border-bottom-color: #27ae60;
+}
+#output {
+    background: #2d3436;
+    color: #55efc4;
+    padding: 16px;
+    border-radius: 8px;
+    font-family: 'Monaco', 'Menlo', monospace;
+    font-size: 13px;
+    white-space: pre-wrap;
+    overflow-x: auto;
+    max-height: 400px;
+    overflow-y: auto;
+}
+.hint {
+    font-size: 12px;
+    color: #7f8c8d;
+    margin-top: 4px;
+}
+.photo-preview {
+    width: 120px;
+    height: 150px;
+    border: 2px dashed #dce1e6;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #95a5a6;
+    font-size: 12px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 8px;
+}
+</style>
+
+<div class="form-container">
+    <h1 style="text-align: center; color: #2c3e50; margin-bottom: 8px;">🎓 学生信息填报系统</h1>
+    <p style="text-align: center; color: #7f8c8d; margin-bottom: 32px;">填写信息后生成 YAML 格式，提交给管理员更新网站</p>
+
+    <form id="studentForm">
+        <!-- 基本信息 -->
+        <div class="form-section">
+            <h2>📋 基本信息</h2>
+            <div class="form-row">
+                <div class="form-group">
+                    <label>中文姓名 *</label>
+                    <input type="text" id="name" placeholder="例：张三" required>
+                </div>
+                <div class="form-group">
+                    <label>英文姓名</label>
+                    <input type="text" id="name_en" placeholder="例：San Zhang">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label>身份 *</label>
+                    <select id="role">
+                        <option value="PhD Student">博士生</option>
+                        <option value="Master Student">硕士生</option>
+                        <option value="Undergraduate">本科生</option>
+                        <option value="Postdoc">博士后</option>
+                        <option value="Research Assistant">研究助理</option>
+                        <option value="Visiting Scholar">访问学者</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>状态 *</label>
+                    <select id="status">
+                        <option value="current">在读</option>
+                        <option value="alumni">已毕业</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <label>邮箱 *</label>
+                <input type="email" id="email" placeholder="your-email@example.com" required>
+            </div>
+            <div class="form-group">
+                <label>入学时间</label>
+                <input type="month" id="join_date">
+            </div>
+        </div>
+
+        <!-- 个人简介 -->
+        <div class="form-section">
+            <h2>👤 个人简介</h2>
+            <div class="form-group">
+                <label>头像照片</label>
+                <input type="file" id="photo" accept="image/*">
+                <p class="hint">建议上传 1:1.25 比例的照片，文件名使用姓名拼音</p>
+            </div>
+            <div class="form-group">
+                <label>个人简介</label>
+                <textarea id="bio" rows="3" placeholder="研究方向、兴趣等简介..."></textarea>
+            </div>
+            <div class="form-group">
+                <label>研究方向</label>
+                <div id="research_interests" class="dynamic-list">
+                    <div class="dynamic-item">
+                        <input type="text" placeholder="例：计算机视觉">
+                        <button type="button" class="btn btn-secondary btn-small" onclick="removeItem(this)">删除</button>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-secondary btn-small" style="margin-top: 8px;" onclick="addItem('research_interests')">+ 添加研究方向</button>
+            </div>
+        </div>
+
+        <!-- 教育背景 -->
+        <div class="form-section">
+            <h2>🎓 教育背景</h2>
+            <div class="form-group">
+                <div id="education" class="dynamic-list">
+                    <div class="dynamic-item">
+                        <input type="text" placeholder="例：2020-至今, XX大学, 博士在读">
+                        <button type="button" class="btn btn-secondary btn-small" onclick="removeItem(this)">删除</button>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-secondary btn-small" style="margin-top: 8px;" onclick="addItem('education')">+ 添加教育经历</button>
+            </div>
+        </div>
+
+        <!-- 发表论文 -->
+        <div class="form-section">
+            <h2>📝 发表论文</h2>
+            <div id="publications">
+                <div class="publication-item" style="background: #fff; padding: 16px; border-radius: 8px; margin-bottom: 12px;">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>论文标题</label>
+                            <input type="text" class="pub-title" placeholder="论文标题">
+                        </div>
+                        <div class="form-group">
+                            <label>会议/期刊</label>
+                            <input type="text" class="pub-venue" placeholder="例：CVPR 2023">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>作者</label>
+                            <input type="text" class="pub-authors" placeholder="作者列表">
+                        </div>
+                        <div class="form-group">
+                            <label>论文链接</label>
+                            <input type="url" class="pub-link" placeholder="https://...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="btn btn-secondary btn-small" onclick="addPublication()">+ 添加论文</button>
+        </div>
+
+        <!-- 奖项荣誉 -->
+        <div class="form-section">
+            <h2>🏆 奖项荣誉</h2>
+            <div class="form-group">
+                <div id="awards" class="dynamic-list">
+                    <div class="dynamic-item">
+                        <input type="text" placeholder="例：2023年 国家奖学金">
+                        <button type="button" class="btn btn-secondary btn-small" onclick="removeItem(this)">删除</button>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-secondary btn-small" style="margin-top: 8px;" onclick="addItem('awards')">+ 添加奖项</button>
+            </div>
+        </div>
+
+        <!-- 社交链接 -->
+        <div class="form-section">
+            <h2>🔗 社交链接</h2>
+            <div class="form-row">
+                <div class="form-group">
+                    <label>个人主页</label>
+                    <input type="url" id="link_homepage" placeholder="https://your-homepage.com">
+                </div>
+                <div class="form-group">
+                    <label>GitHub</label>
+                    <input type="text" id="link_github" placeholder="GitHub 用户名">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label>Google Scholar</label>
+                    <input type="url" id="link_scholar" placeholder="https://scholar.google.com/citations?user=xxx">
+                </div>
+                <div class="form-group">
+                    <label>LinkedIn</label>
+                    <input type="text" id="link_linkedin" placeholder="LinkedIn 用户名">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label>ResearchGate</label>
+                    <input type="url" id="link_researchgate" placeholder="https://www.researchgate.net/profile/xxx">
+                </div>
+                <div class="form-group">
+                    <label>ORCID</label>
+                    <input type="url" id="link_orcid" placeholder="https://orcid.org/xxxx">
+                </div>
+            </div>
+        </div>
+
+        <div style="text-align: center; margin: 32px 0;">
+            <button type="button" class="btn btn-primary" style="padding: 14px 40px; font-size: 16px;" onclick="generateYAML()">生成 YAML 格式</button>
+        </div>
+    </form>
+
+    <!-- 输出区域 -->
+    <div class="output-section">
+        <h2>📄 生成结果</h2>
+        <div id="output">填写表单后点击"生成 YAML 格式"按钮...</div>
+        <div style="text-align: center; margin-top: 16px;">
+            <button type="button" class="btn btn-success" onclick="copyToClipboard()">📋 复制到剪贴板</button>
+        </div>
+    </div>
+
+    <div style="background: #fff3cd; border-radius: 8px; padding: 16px; margin-top: 24px; border-left: 4px solid #ffc107;">
+        <strong>📌 提交说明：</strong>
+        <ol style="margin: 8px 0 0 0; padding-left: 20px; color: #666;">
+            <li>点击"生成 YAML 格式"按钮</li>
+            <li>复制生成的 YAML 内容</li>
+            <li>发送给实验室管理员或提交到 GitHub 仓库的 <code>_data/members.yml</code> 文件</li>
+            <li>如有照片，请将照片文件发送给管理员</li>
+        </ol>
+    </div>
+</div>
+
+<script>
+function addItem(containerId) {
+    const container = document.getElementById(containerId);
+    const div = document.createElement('div');
+    div.className = 'dynamic-item';
+    div.innerHTML = `
+        <input type="text" placeholder="请输入内容">
+        <button type="button" class="btn btn-secondary btn-small" onclick="removeItem(this)">删除</button>
+    `;
+    container.appendChild(div);
+}
+
+function removeItem(btn) {
+    const container = btn.parentElement.parentElement;
+    if (container.children.length > 1) {
+        btn.parentElement.remove();
+    }
+}
+
+function addPublication() {
+    const container = document.getElementById('publications');
+    const div = document.createElement('div');
+    div.className = 'publication-item';
+    div.style.cssText = 'background: #fff; padding: 16px; border-radius: 8px; margin-bottom: 12px;';
+    div.innerHTML = `
+        <div class="form-row">
+            <div class="form-group">
+                <label>论文标题</label>
+                <input type="text" class="pub-title" placeholder="论文标题">
+            </div>
+            <div class="form-group">
+                <label>会议/期刊</label>
+                <input type="text" class="pub-venue" placeholder="例：CVPR 2023">
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group">
+                <label>作者</label>
+                <input type="text" class="pub-authors" placeholder="作者列表">
+            </div>
+            <div class="form-group">
+                <label>论文链接</label>
+                <input type="url" class="pub-link" placeholder="https://...">
+            </div>
+        </div>
+    `;
+    container.appendChild(div);
+}
+
+function getListValues(containerId) {
+    const items = document.querySelectorAll(`#${containerId} .dynamic-item input`);
+    return Array.from(items).map(input => input.value.trim()).filter(v => v);
+}
+
+function getPublications() {
+    const items = document.querySelectorAll('#publications .publication-item');
+    const pubs = [];
+    items.forEach(item => {
+        const title = item.querySelector('.pub-title').value.trim();
+        if (title) {
+            pubs.push({
+                title: title,
+                authors: item.querySelector('.pub-authors').value.trim(),
+                venue: item.querySelector('.pub-venue').value.trim(),
+                link: item.querySelector('.pub-link').value.trim()
+            });
+        }
+    });
+    return pubs;
+}
+
+function escapeYAML(str) {
+    if (!str) return '""';
+    if (str.includes(':') || str.includes('#') || str.includes('\n') || str.includes('"')) {
+        return '"' + str.replace(/"/g, '\\"') + '"';
+    }
+    return str;
+}
+
+function generateYAML() {
+    const name = document.getElementById('name').value.trim();
+    if (!name) {
+        alert('请填写中文姓名！');
+        return;
+    }
+
+    let yaml = '  - name: "' + document.getElementById('name').value + '"\n';
+    yaml += '    name_en: "' + (document.getElementById('name_en').value || '') + '"\n';
+    
+    const photoFile = document.getElementById('photo').files[0];
+    const photoName = photoFile ? photoFile.name : (document.getElementById('name_en').value.toLowerCase().replace(/\s+/g, '_') + '.jpg');
+    yaml += '    avatar: "images/members/' + photoName + '"\n';
+    
+    yaml += '    role: "' + document.getElementById('role').value + '"\n';
+    yaml += '    status: "' + document.getElementById('status').value + '"\n';
+    yaml += '    email: "' + document.getElementById('email').value + '"\n';
+    yaml += '    bio: "' + (document.getElementById('bio').value || '') + '"\n';
+    
+    // Research interests
+    const interests = getListValues('research_interests');
+    if (interests.length > 0) {
+        yaml += '    research_interests:\n';
+        interests.forEach(i => yaml += '      - "' + i + '"\n');
+    }
+    
+    // Education
+    const education = getListValues('education');
+    if (education.length > 0) {
+        yaml += '    education:\n';
+        education.forEach(e => yaml += '      - "' + e + '"\n');
+    }
+    
+    // Publications
+    const pubs = getPublications();
+    if (pubs.length > 0) {
+        yaml += '    publications:\n';
+        pubs.forEach(p => {
+            yaml += '      - title: "' + p.title + '"\n';
+            yaml += '        authors: "' + p.authors + '"\n';
+            yaml += '        venue: "' + p.venue + '"\n';
+            if (p.link) yaml += '        link: "' + p.link + '"\n';
+        });
+    }
+    
+    // Awards
+    const awards = getListValues('awards');
+    if (awards.length > 0) {
+        yaml += '    awards:\n';
+        awards.forEach(a => yaml += '      - "' + a + '"\n');
+    }
+    
+    // Links
+    yaml += '    links:\n';
+    yaml += '      homepage: "' + (document.getElementById('link_homepage').value || '') + '"\n';
+    yaml += '      github: "' + (document.getElementById('link_github').value || '') + '"\n';
+    yaml += '      google_scholar: "' + (document.getElementById('link_scholar').value || '') + '"\n';
+    yaml += '      linkedin: "' + (document.getElementById('link_linkedin').value || '') + '"\n';
+    yaml += '      researchgate: "' + (document.getElementById('link_researchgate').value || '') + '"\n';
+    yaml += '      orcid: "' + (document.getElementById('link_orcid').value || '') + '"\n';
+    
+    // Join date
+    yaml += '    join_date: "' + (document.getElementById('join_date').value || '') + '"\n';
+
+    document.getElementById('output').textContent = yaml;
+}
+
+function copyToClipboard() {
+    const text = document.getElementById('output').textContent;
+    navigator.clipboard.writeText(text).then(() => {
+        alert('已复制到剪贴板！');
+    }).catch(err => {
+        // Fallback for older browsers
+        const textarea = document.createElement('textarea');
+        textarea.value = text;
+        document.body.appendChild(textarea);
+        textarea.select();
+        document.execCommand('copy');
+        document.body.removeChild(textarea);
+        alert('已复制到剪贴板！');
+    });
+}
+</script>

@@ -1,0 +1,30 @@
+# 实验室成员数据文件
+# 学生可以通过网页表单填写信息，然后提交到此文件
+
+members:
+  # 示例成员（可删除）
+  - name: "张三"
+    name_en: "San Zhang"
+    avatar: "images/members/zhangsan.jpg"
+    role: "PhD Student"
+    status: "current"  # current, alumni
+    email: "zhangsan@example.com"
+    bio: "研究方向：计算机视觉、深度学习"
+    education:
+      - "2020-至今, XX大学, 博士在读"
+      - "2016-2020, XX大学, 本科"
+    research_interests:
+      - "计算机视觉"
+      - "深度学习"
+    publications:
+      - title: "论文标题1"
+        authors: "张三, 李四, 王五"
+        venue: "CVPR 2023"
+        link: "https://example.com/paper1"
+    awards:
+      - "2023年 优秀学生奖"
+    links:
+      homepage: "https://example.com"
+      github: "zhangsan"
+      google_scholar: "https://scholar.google.com/citations?user=xxx"
+    join_date: "2020-09"
