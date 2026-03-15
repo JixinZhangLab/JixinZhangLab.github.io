@@ -1,7 +1,13 @@
 # main links links
 main:
-  - title: "About Me"
-    url: "/#about-me"
+  - title: "Homepage"
+    url: "/"
+
+  - title: "团队成员"
+    url: "/members/"
+
+  - title: "信息填报"
+    url: "/student-form/"
 
   - title: "News"
     url: "/#-news"

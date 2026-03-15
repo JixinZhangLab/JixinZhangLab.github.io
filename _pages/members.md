@@ -9,7 +9,7 @@ author_profile: true
 
 # 👥 团队成员
 
-[填写/更新个人信息](/JixinZhang_Lab.github.io/student-form/){: .btn .btn--primary}
+[填写/更新个人信息](/student-form/){: .btn .btn--primary}
 
 ---
 
