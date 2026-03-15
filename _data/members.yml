@@ -1,30 +1,24 @@
-# 实验室成员数据文件
-# 学生可以通过网页表单填写信息，然后提交到此文件
+# JixinZhang Lab 成员数据
+# 更新时间: 2026-03-15 22:44:18
 
 members:
-  # 示例成员（可删除）
-  - name: "张三"
-    name_en: "San Zhang"
-    avatar: "images/members/zhangsan.jpg"
-    role: "PhD Student"
-    status: "current"  # current, alumni
-    email: "zhangsan@example.com"
-    bio: "研究方向：计算机视觉、深度学习"
-    education:
-      - "2020-至今, XX大学, 博士在读"
-      - "2016-2020, XX大学, 本科"
-    research_interests:
-      - "计算机视觉"
-      - "深度学习"
-    publications:
-      - title: "论文标题1"
-        authors: "张三, 李四, 王五"
-        venue: "CVPR 2023"
-        link: "https://example.com/paper1"
-    awards:
-      - "2023年 优秀学生奖"
-    links:
-      homepage: "https://example.com"
-      github: "zhangsan"
-      google_scholar: "https://scholar.google.com/citations?user=xxx"
-    join_date: "2020-09"
+- name: 盛烁
+  name_en: Shuo Sheng
+  avatar: images/members/2_c5c53be7.jpg
+  role: Undergraduate
+  status: current
+  email: 2210300414@hbut.edu.cn
+  bio: 网络空间安全，漏洞挖掘，渗透测试，Text2sql,GraphRag，知识图谱，AI Agent
+  education:
+  - 2022—至今，湖北工业大学，本科在读
+  research_interests:
+  - 渗透测试
+  - Text2sql
+  - GraphRag
+  - AI Agent
+  links:
+    homepage: ''
+    github: ''
+    google_scholar: ''
+    linkedin: ''
+  join_date: 2022-09
