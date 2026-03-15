@@ -21,7 +21,7 @@ Welcome to JixinZhang Lab! We are a research laboratory dedicated to advancing k
 
 For more information, please contact us or visit our GitHub page.
 
-**[👥 查看团队成员](/JixinZhang_Lab.github.io/members/)** | **[📝 填写/更新个人信息](/JixinZhang_Lab.github.io/student-form/)**
+**[👥 查看团队成员](/members/)** | **[📝 填写/更新个人信息](/student-form/)**
 
 
 # 🔥 News
