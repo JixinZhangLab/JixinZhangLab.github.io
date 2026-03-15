@@ -1,0 +1,107 @@
+name: Process Member Update
+
+on:
+  issues:
+    types: [opened, edited]
+
+jobs:
+  process-member-update:
+    if: contains(github.event.issue.labels.*.name, 'member-update')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Parse issue and update members
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const issue = context.payload.issue;
+            const body = issue.body;
+            
+            // 解析 Issue 内容
+            function parseField(body, field) {
+              const regex = new RegExp(`\\*\\*${field}\\*\\*:\\s*(.+?)(?:\\n|$)`, 'i');
+              const match = body.match(regex);
+              return match ? match[1].trim() : '';
+            }
+            
+            function parseList(body, header) {
+              const regex = new RegExp(`## ${header}[\\s\\S]*?((?:- .+\\n)+)`, 'i');
+              const match = body.match(regex);
+              if (!match) return [];
+              return match[1].split('\n')
+                .filter(line => line.trim().startsWith('-'))
+                .map(line => line.replace(/^\s*-\s*/, '').trim())
+                .filter(line => line);
+            }
+            
+            // 提取信息
+            const name = parseField(body, '中文姓名');
+            if (!name) {
+              console.log('No name found, skipping');
+              return;
+            }
+            
+            const nameEn = parseField(body, '英文姓名');
+            const email = parseField(body, '邮箱');
+            const role = parseField(body, '身份');
+            const status = body.includes('[x] 已毕业') ? 'alumni' : 'current';
+            const bio = parseField(body, '个人简介') || parseField(body, '简介');
+            const joinDate = parseField(body, '入学时间');
+            
+            const researchInterests = parseList(body, '研究方向');
+            const education = parseList(body, '教育背景');
+            const publications = parseList(body, '发表论文');
+            const awards = parseList(body, '奖项荣誉');
+            
+            const homepage = parseField(body, '个人主页');
+            const github = parseField(body, 'GitHub');
+            const googleScholar = parseField(body, 'Google Scholar');
+            const linkedin = parseField(body, 'LinkedIn');
+            
+            // 读取现有成员数据
+            const membersPath = '_data/members.yml';
+            let membersContent = '';
+            if (fs.existsSync(membersPath)) {
+              membersContent = fs.readFileSync(membersPath, 'utf8');
+            }
+            
+            // 生成新的成员条目
+            const newMember = `
+  - name: "${name}"
+    name_en: "${nameEn}"
+    avatar: "images/members/${nameEn.toLowerCase().replace(/\s+/g, '_') || name}.jpg"
+    role: "${role}"
+    status: "${status}"
+    email: "${email}"
+    bio: "${bio}"
+    join_date: "${joinDate}"
+${researchInterests.length ? `    research_interests:\n${researchInterests.map(i => `      - "${i}"`).join('\n')}\n` : ''}${education.length ? `    education:\n${education.map(e => `      - "${e}"`).join('\n')}\n` : ''}${publications.length ? `    publications:\n${publications.map(p => `      - "${p}"`).join('\n')}\n` : ''}${awards.length ? `    awards:\n${awards.map(a => `      - "${a}"`).join('\n')}\n` : ''}    links:
+      homepage: "${homepage}"
+      github: "${github}"
+      google_scholar: "${googleScholar}"
+      linkedin: "${linkedin}"
+`;
+            
+            // 添加评论确认
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issue.number,
+              body: `## 📋 信息解析结果\n\n**姓名**: ${name}\n**邮箱**: ${email}\n**身份**: ${role}\n\n---\n\n✅ 信息已解析，请管理员审核后合并。\n\n**管理员操作**: 将以下内容添加到 \`_data/members.yml\` 文件中：\n\`\`\`yaml${newMember}\`\`\``
+            });
+
+      - name: Add pending label
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.addLabels({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.payload.issue.number,
+              labels: ['pending-review']
+            });
