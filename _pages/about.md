@@ -59,16 +59,6 @@ L. Cai, K. Cheng, **J. Zhang** (Corresponding Author), H. Li, Z. Ye
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">PAKDD 2026</div><img src='images/papers/paper_img_1_fe271eb7.png' alt="paper" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**HyRO: Hybrid Retrieval-Augmented Generation Framework for LLMs Integrating Vector Encoding and Knowledge Graphs**
-
-PAKDD 2026
-
-</div>
-</div>  
-
 
 # 🎖 Honors and Awards
 - Second Prize, Science and Technology Progress Award, China Institute of Communications (中国通信学会科技进步二等奖)
