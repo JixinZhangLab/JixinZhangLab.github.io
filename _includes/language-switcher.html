@@ -1,0 +1,19 @@
+<div class="language-switcher">
+  <button 
+    class="lang-btn {% if page.lang == 'en' or page.lang == nil %}lang-btn--active{% endif %}"
+    data-lang="en"
+    aria-label="Switch to English"
+    onclick="switchLanguage('en')"
+  >
+    EN
+  </button>
+  <span class="lang-divider">|</span>
+  <button 
+    class="lang-btn {% if page.lang == 'zh' %}lang-btn--active{% endif %}"
+    data-lang="zh"
+    aria-label="切换到中文"
+    onclick="switchLanguage('zh')"
+  >
+    CN
+  </button>
+</div>

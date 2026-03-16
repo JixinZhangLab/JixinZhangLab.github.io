@@ -1,13 +1,17 @@
 ---
 permalink: /
-title: ""
-excerpt: ""
+title: "Jixin Zhang"
+title_zh: "张吉昕"
+excerpt: "Academic homepage of Jixin Zhang - Hubei University of Technology"
+excerpt_zh: "张吉昕学术主页 - 湖北工业大学"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
+lang: en
 ---
 
+{% if page.lang == 'zh' %}
 <span class='anchor' id='about-me'></span>
 
 我是**张吉昕**，现任湖北工业大学计算机科学与人工智能学院副教授，信息安全系主任。我于湖南大学获得博士学位，曾赴香港中文大学进行学术访问。
@@ -17,10 +21,21 @@ redirect_from:
 我主持了国家自然科学基金青年项目、专项（重点）项目子课题，以及多项省部级项目。主持华为等企业技术研发项目10余项。获中国通信学会科技进步二等奖、华为"火花奖"等科研奖励。发表SCI期刊/CCF国际会议论文40余篇，其中第一/通讯作者论文18篇，包括国际顶级会议和权威期刊AAAI/DATE/ICC/TDSC/IS/C&S等，总引用次数1000余次，H指数18。授权国家技术发明专利8项。担任国际会议ICCS 2022、ICCS 2023分会主席，TISF/TDSC/TSE/TSC等多个国际期刊审稿人。指导专业竞赛获国家级奖项10余项，包括"挑战杯"国家级特等奖1项，其他信息安全或人工智能专业竞赛国家级一等奖5项。作为课程负责人获批《网络攻击与防御》湖北省一流课程。
 
 📧 邮箱：zhangjx@hbut.edu.cn
+{% else %}
+<span class='anchor' id='about-me'></span>
+
+I am **Jixin Zhang**, currently an Associate Professor and Head of the Information Security Department at the School of Computer Science and Artificial Intelligence, Hubei University of Technology. I received my Ph.D. from Hunan University and was a visiting scholar at The Chinese University of Hong Kong.
+
+My main research interests include **Artificial Intelligence Security** and **Electronic Design Automation (EDA)**.
+
+I have hosted the National Natural Science Foundation Youth Project, special (key) project sub-projects, and multiple provincial and ministerial projects. I have hosted more than 10 enterprise technology R&D projects, including cooperation with Huawei. I have received the Second Prize of China Communications Society for Science and Technology Progress, Huawei "Spark Award" and other scientific research awards. I have published more than 40 papers in SCI journals/CCF international conferences, including 18 papers as first/corresponding author, in top international conferences and authoritative journals such as AAAI/DATE/ICC/TDSC/IS/C&S, etc., with total citations of more than 1000 times and H-index of 18. I have been granted 8 national technical invention patents. I served as the session chair of ICCS 2022 and ICCS 2023, and reviewer of many international journals such as TISF/TDSC/TSE/TSC. I guided students to win more than 10 national-level professional competition awards, including one national special prize of "Challenge Cup" and five national first prizes in information security or artificial intelligence professional competitions. As the course leader, I was approved for the Hubei Province First-Class Course "Network Attack and Defense".
+
+📧 Email: zhangjx@hbut.edu.cn
+{% endif %}
 
 
 <span class='anchor' id='news'></span>
-# 🔥 最新动态
+# {% if page.lang == 'zh' %}🔥 最新动态{% else %}🔥 News{% endif %}
 
 - *2026.03*: &nbsp;🎉 程轲、李海云、钟子朋的论文"PPOM-Attack: A Substitute Model-Free Perturbation Prediction and Optimization Method for Black-Box Adversarial Attack Against Face Recognition"被IEEE Transactions on Information Forensics and Security (TIFS) 录用，祝贺程轲、李海云、钟子朋！
 - *2026.01*: &nbsp;🎉 蔡磊、程轲、李海云的论文"DRLPlace: A Deep Reinforcement Learning-based Irregular and High-Density Printed Circuit Board Placement Method"被The 31st Asia and South Pacific Design Automation Conference (ASP-DAC) 录用，祝贺蔡磊、程轲、李海云！

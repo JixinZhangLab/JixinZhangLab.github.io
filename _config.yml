@@ -6,10 +6,18 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "张吉昕"
-description              : "JixinZhangLab 实验室学术主页 - 湖北工业大学"
+title                    : "Jixin Zhang"
+title_zh                 : "张吉昕"
+description              : "Academic homepage of JixinZhangLab - Hubei University of Technology"
+description_zh           : "JixinZhangLab 实验室学术主页 - 湖北工业大学"
 repository               : "JixinZhangLab/JixinZhangLab.github.io"
 google_scholar_stats_use_cdn : true
+
+# Language Settings
+default_lang             : "en"
+available_langs:
+  - "en"
+  - "zh"
 
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
@@ -22,9 +30,12 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Jixin Zhang"
+  name_zh          : "张吉昕"
   avatar           : "images/android-chrome-512x512.png"
   bio              : "Hubei University of Technology"
+  bio_zh           : "湖北工业大学"
   location         : "Wuhan, China"
+  location_zh      : "中国 武汉"
   employer         : "Hubei University of Technology"
   pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"

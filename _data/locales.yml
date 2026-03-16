@@ -1,0 +1,33 @@
+# English locale (default)
+navigation:
+  home: "Home"
+  news: "News"
+  publications: "Publications"
+  honors: "Honors & Awards"
+  education: "Education"
+  services: "Academic Services"
+  teaching: "Teaching & Supervision"
+  projects: "Research Projects"
+  patents: "Patents"
+
+sections:
+  about_me: "About Me"
+  news: "News"
+  publications: "Publications"
+  honors: "Honors & Awards"
+  education: "Education"
+  services: "Academic Services"
+  teaching: "Teaching & Supervision"
+  projects: "Research Projects"
+  patents: "Patents"
+
+switcher:
+  en: "EN"
+  zh: "CN"
+  current: "Language:"
+
+author:
+  email: "Email"
+  github: "GitHub"
+  google_scholar: "Google Scholar"
+  website: "Website"
