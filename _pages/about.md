@@ -27,138 +27,6 @@ I have presided over the National Natural Science Foundation of China (NSFC) You
 
 Selected publications in top-tier venues including AAAI, DATE, ICC, TDSC, TIFS, IS, C&S, etc.
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Cybersecurity 2018</div><img src='images/papers/malware_detection.png' alt="paper" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**Sensitive System Calls Based Packed Malware Variants Detection Using Principal Component Analysis**
-
-**J. Zhang**, K. Zhang, Z. Qin, H. Yin, Q. Wu
-
-Cybersecurity, 2018
-
-*CCF-T1, JCR-Q1*
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE Access 2019</div><img src='images/papers/cpabse.png' alt="paper" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**CP-ABSE: A Ciphertext-Policy Attribute-Based Searchable Encryption Scheme**
-
-H. Yin, **J. Zhang**, Y. Xiong, Q. Wu, Z. Qin
-
-IEEE Access, 2019
-
-[![IEEE](https://img.shields.io/badge/IEEE-10.1109/ACCESS.2018.2889754-blue)](https://doi.org/10.1109/ACCESS.2018.2889754)
-
-*CCF-T2*
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TDSC 2021</div><img src='images/papers/pbaa.png' alt="paper" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**PBAA: A Privacy-Preserving Bilinear Access Control Scheme for Cloud Data Sharing**
-
-H. Deng, **J. Zhang**, Z. Qin, Q. Wu, H. Yin, A. Castiglione
-
-IEEE Transactions on Dependable and Secure Computing, 2021
-
-[![IEEE](https://img.shields.io/badge/IEEE-10.1109/TDSC.2021.3080282-blue)](https://doi.org/10.1109/TDSC.2021.3080282)
-
-*CCF-A, JCR-Q1*
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICC 2022</div><img src='images/papers/deepfake_detection.png' alt="paper" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**Deepfake Detection Using Dual-Stream Network with Attention Mechanism**
-
-**J. Zhang**, K. Cheng, G. Sovernigo, X. Lin
-
-IEEE International Conference on Communications (ICC), 2022
-
-*CCF-C*
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2023</div><img src='images/papers/fanoutnet.png' alt="paper" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**FanoutNet: A Neuralized PCB Fanout Automation Method Using Deep Reinforcement Learning**
-
-H. Li, **J. Zhang** (Corresponding Author), N. Xu, M. Liu
-
-AAAI Conference on Artificial Intelligence (AAAI), 2023
-
-[![IEEE](https://img.shields.io/badge/IEEE-10.1609/aaai.v37i7.26030-blue)](https://doi.org/10.1609/aaai.v37i7.26030)
-
-*CCF-A*
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IS 2024</div><img src='images/papers/lnet.png' alt="paper" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**L-Net: A Lightweight Convolutional Neural Network for Efficient Deep Learning**
-
-H. Shen, Z. Wang, **J. Zhang** (Corresponding Author), M. Zhang
-
-Information Sciences, vol. 660, pp. 120-131, 2024
-
-*CCF-B, JCR-Q1, CAS-Q1*
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">DATE 2025</div><img src='images/papers/megaroute.png' alt="paper" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**MegaRoute: A Scalable Multi-Stage Routing Framework for Large-Scale PCBs**
-
-H. Li, **J. Zhang** (Corresponding Author)
-
-Design, Automation & Test in Europe Conference (DATE), 2025
-
-*CCF-B*
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">DATE 2025</div><img src='images/papers/sacplace.png' alt="paper" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**SACPlace: A Simulated Annealing-Based Analog Circuit Placement Method**
-
-L. Cai, **J. Zhang** (Corresponding Author), H. Li, K. Cheng
-
-Design, Automation & Test in Europe Conference (DATE), 2025
-
-*CCF-B*
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TACL 2025</div><img src='images/papers/keft.png' alt="paper" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**KEFT: Knowledge-Enhanced Fine-Tuning for Large Language Models**
-
-H. Li, **J. Zhang** (Corresponding Author), H. Shen, K. Cheng, X. Huang
-
-Transactions of the Association for Computational Linguistics, vol. 13, pp. 1056-1067, 2025
-
-*CCF-B, JCR-Q1*
-
-</div>
-</div>
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TIFS 2026</div><img src='images/papers/ppom_attack.png' alt="paper" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -187,6 +55,138 @@ L. Cai, K. Cheng, **J. Zhang** (Corresponding Author), H. Li, Z. Ye
 [![IEEE](https://img.shields.io/badge/IEEE-10.1109/ASP--DAC66049.2026.11420655-blue)](https://doi.org/10.1109/ASP-DAC66049.2026.11420655)
 
 *CCF-C*
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TACL 2025</div><img src='images/papers/keft.png' alt="paper" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**KEFT: Knowledge-Enhanced Fine-Tuning for Large Language Models**
+
+H. Li, **J. Zhang** (Corresponding Author), H. Shen, K. Cheng, X. Huang
+
+Transactions of the Association for Computational Linguistics, vol. 13, pp. 1056-1067, 2025
+
+*CCF-B, JCR-Q1*
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">DATE 2025</div><img src='images/papers/sacplace.png' alt="paper" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**SACPlace: A Simulated Annealing-Based Analog Circuit Placement Method**
+
+L. Cai, **J. Zhang** (Corresponding Author), H. Li, K. Cheng
+
+Design, Automation & Test in Europe Conference (DATE), 2025
+
+*CCF-B*
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">DATE 2025</div><img src='images/papers/megaroute.png' alt="paper" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**MegaRoute: A Scalable Multi-Stage Routing Framework for Large-Scale PCBs**
+
+H. Li, **J. Zhang** (Corresponding Author)
+
+Design, Automation & Test in Europe Conference (DATE), 2025
+
+*CCF-B*
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IS 2024</div><img src='images/papers/lnet.png' alt="paper" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**L-Net: A Lightweight Convolutional Neural Network for Efficient Deep Learning**
+
+H. Shen, Z. Wang, **J. Zhang** (Corresponding Author), M. Zhang
+
+Information Sciences, vol. 660, pp. 120-131, 2024
+
+*CCF-B, JCR-Q1, CAS-Q1*
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2023</div><img src='images/papers/fanoutnet.png' alt="paper" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**FanoutNet: A Neuralized PCB Fanout Automation Method Using Deep Reinforcement Learning**
+
+H. Li, **J. Zhang** (Corresponding Author), N. Xu, M. Liu
+
+AAAI Conference on Artificial Intelligence (AAAI), 2023
+
+[![IEEE](https://img.shields.io/badge/IEEE-10.1609/aaai.v37i7.26030-blue)](https://doi.org/10.1609/aaai.v37i7.26030)
+
+*CCF-A*
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICC 2022</div><img src='images/papers/deepfake_detection.png' alt="paper" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Deepfake Detection Using Dual-Stream Network with Attention Mechanism**
+
+**J. Zhang**, K. Cheng, G. Sovernigo, X. Lin
+
+IEEE International Conference on Communications (ICC), 2022
+
+*CCF-C*
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TDSC 2021</div><img src='images/papers/pbaa.png' alt="paper" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**PBAA: A Privacy-Preserving Bilinear Access Control Scheme for Cloud Data Sharing**
+
+H. Deng, **J. Zhang**, Z. Qin, Q. Wu, H. Yin, A. Castiglione
+
+IEEE Transactions on Dependable and Secure Computing, 2021
+
+[![IEEE](https://img.shields.io/badge/IEEE-10.1109/TDSC.2021.3080282-blue)](https://doi.org/10.1109/TDSC.2021.3080282)
+
+*CCF-A, JCR-Q1*
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE Access 2019</div><img src='images/papers/cpabse.png' alt="paper" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**CP-ABSE: A Ciphertext-Policy Attribute-Based Searchable Encryption Scheme**
+
+H. Yin, **J. Zhang**, Y. Xiong, Q. Wu, Z. Qin
+
+IEEE Access, 2019
+
+[![IEEE](https://img.shields.io/badge/IEEE-10.1109/ACCESS.2018.2889754-blue)](https://doi.org/10.1109/ACCESS.2018.2889754)
+
+*CCF-T2*
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Cybersecurity 2018</div><img src='images/papers/malware_detection.png' alt="paper" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Sensitive System Calls Based Packed Malware Variants Detection Using Principal Component Analysis**
+
+**J. Zhang**, K. Zhang, Z. Qin, H. Yin, Q. Wu
+
+Cybersecurity, 2018
+
+*CCF-T1, JCR-Q1*
 
 </div>
 </div>
