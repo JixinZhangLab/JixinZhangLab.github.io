@@ -10,9 +10,13 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently a researcher at Hubei University of Technology. My research interests include computer vision, machine learning, and artificial intelligence.
+**Jixin Zhang (张吉昕)** is an Associate Professor at the School of Computer Science and Artificial Intelligence, Hubei University of Technology (HBUT, 湖北工业大学). He serves as the Head of the Information Security Department. He received his Ph.D. from Hunan University (湖南大学) and was a visiting scholar at The Chinese University of Hong Kong (香港中文大学).
 
-For more information, please contact me via email.
+His research interests include **AI Security** (人工智能安全) and **Electronic Design Automation (EDA)**.
+
+He has presided over the National Natural Science Foundation of China (NSFC) Youth Project, sub-projects of key special projects, and multiple provincial and ministerial projects. He has also led more than 10 enterprise technology R&D projects, including collaborations with Huawei. He has published over 40 papers in SCI journals and CCF international conferences, with more than 1,000 citations and an H-index of 18.
+
+📧 Email: zhangjx@hbut.edu.cn
 
 
 # 🔥 News
@@ -21,6 +25,8 @@ For more information, please contact me via email.
 
 # 📝 Publications
 
+Selected publications in top-tier venues including AAAI, DATE, ICC, TDSC, IS, C&S, etc.
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">PAKDD 2026</div><img src='images/papers/paper_img_1_fe271eb7.png' alt="paper" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -28,24 +34,46 @@ For more information, please contact me via email.
 
 PAKDD 2026
 
-[<!-- <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> -->](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC)
+</div>
+</div>
 
-</div>
-</div>
+- **Paper Title 1**  
+  Author1, Author2, Author3  
+  *Conference/Journal, Year*  
+
+- **Paper Title 2**  
+  Author1, Author2, Author3  
+  *Conference/Journal, Year*  
 
 
 # 🎖 Honors and Awards
-- *2024* Award Name
+- Second Prize, Science and Technology Progress Award, China Institute of Communications (中国通信学会科技进步二等奖)
+- Huawei "Spark Award" (华为"火花奖")
+- National Special Prize, "Challenge Cup" (指导"挑战杯"国家级特等奖)
+- 5 National First Prizes in Information Security and AI Competitions (信息安全/人工智能专业竞赛国家级一等奖5项)
 
 
 # 📖 Educations
-- *2020 - Present*, Ph.D., University Name
-- *2016 - 2020*, B.S., University Name
+- *201x - 201x*, Ph.D., Hunan University (湖南大学)
+- *201x - 201x*, B.S., University Name
 
 
-# 💬 Invited Talks
-- *2024*, Talk Title, Conference/University
+# 💬 Academic Services
+- Session Chair, ICCS 2022, ICCS 2023
+- Reviewer: IEEE TDSC, IEEE TSE, IEEE TSC, TISF, etc.
 
 
-# 💻 Internships
-- *2023*, Company Name, Position
+# 🏆 Teaching & Supervision
+- Course Leader, "Network Attack and Defense" (网络攻击与防御) - Hubei Province First-class Course (湖北省一流课程)
+- Supervised over 10 national-level competition awards
+
+
+# 💻 Grants & Projects
+- National Natural Science Foundation of China (NSFC) Youth Project
+- Sub-project of Key Special Projects
+- Multiple Provincial and Ministerial Projects
+- 10+ Enterprise R&D Projects (e.g., Huawei)
+
+
+# 📄 Patents
+- 8 Authorized National Invention Patents (国家技术发明专利8项)
