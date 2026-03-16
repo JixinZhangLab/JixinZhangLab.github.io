@@ -1,22 +1,22 @@
 # main links links
 main:
-  - title: "Home"
+  - title: "主页"
     url: "/"
 
-  - title: "News"
+  - title: "最新动态"
     url: "/#-news"
 
-  - title: "Publications"
+  - title: "发表论文"
     url: "/#-publications"
 
-  - title: "Honors & Awards"
+  - title: "荣誉与奖励"
     url: "/#-honors-and-awards"
 
-  - title: "Education"
+  - title: "教育经历"
     url: "/#-educations"
 
-  - title: "Academic Services"
+  - title: "学术服务"
     url: "/#-academic-services"
 
-  - title: "Teaching & Supervision"
+  - title: "教学与指导"
     url: "/#-teaching--supervision"
