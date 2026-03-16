@@ -10,13 +10,13 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-**Jixin Zhang (张吉昕)** is an **Associate Professor** (副教授) at the School of Computer Science and Artificial Intelligence, Hubei University of Technology (HBUT, 湖北工业大学). I serve as the Head of the Information Security Department. I received my Ph.D. from Hunan University (湖南大学) and was a visiting scholar at The Chinese University of Hong Kong (香港中文大学).
+我是**张吉昕**，现任湖北工业大学计算机科学与人工智能学院副教授，信息安全系主任。我于湖南大学获得博士学位，曾赴香港中文大学进行学术访问。
 
-My research interests include **AI Security** (人工智能安全) and **Electronic Design Automation (EDA)**.
+我的主要研究方向包括**人工智能安全**和**电子设计自动化（EDA）**。
 
-I have presided over the National Natural Science Foundation of China (NSFC) Youth Project, sub-projects of key special projects, and multiple provincial and ministerial projects. I have also led more than 10 enterprise technology R&D projects, including collaborations with Huawei. I have published over 40 papers in SCI journals and CCF international conferences, with more than 1,000 citations and an H-index of 18.
+我主持了国家自然科学基金青年项目、重点专项子项目以及多项省部级项目，并主持了10余项企业技术研发项目，包括与华为公司的合作。已在SCI期刊和CCF国际会议发表学术论文40余篇，被引用1000余次，H指数为18。
 
-📧 Email: zhangjx@hbut.edu.cn
+📧 邮箱：zhangjx@hbut.edu.cn
 
 
 # 🔥 News
@@ -30,9 +30,9 @@ I have presided over the National Natural Science Foundation of China (NSFC) You
 - *2023.02*: &nbsp;🎉 李海云、徐宁、刘明宇、张吉昕的论文"FanoutNet: A Neuralized PCB Fanout Automation Method Using Deep Reinforcement Learning"被The 37th AAAI Conference on Artificial Intelligence (AAAI) 录用，祝贺李海云、徐宁、刘明宇！
 
 
-# 📝 Publications
+# 📘 发表论文
 
-Selected publications in top-tier venues including AAAI, DATE, ICC, TDSC, TIFS, IS, C&S, etc.
+在AAAI、DATE、ICC、TDSC、TIFS、IS、C&S等顶级期刊和会议上发表论文40余篇。
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TIFS 2026</div><img src='images/papers/ppom_attack.png' alt="paper" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -199,34 +199,34 @@ Cybersecurity, 2018
 </div>
 
 
-# 🎖 Honors and Awards
-- Second Prize, Science and Technology Progress Award, China Institute of Communications (中国通信学会科技进步二等奖)
-- Huawei "Spark Award" (华为"火花奖")
-- National Special Prize, "Challenge Cup" (指导"挑战杯"国家级特等奖)
-- 5 National First Prizes in Information Security and AI Competitions (信息安全/人工智能专业竞赛国家级一等奖5项)
+# 🏆 荣誉与奖励
+- 中国通信学会科技进步二等奖
+- 华为"火花奖"
+- 指导"挑战杯"国家级特等奖
+- 信息安全/人工智能专业竞赛国家级一等奖5项
 
 
-# 📖 Educations
-- *201x - 201x*, Ph.D., Hunan University (湖南大学)
-- *201x - 201x*, B.S., University Name
+# 🎓 教育经历
+- *201x - 201x*, 博士，湖南大学
+- *201x - 201x*, 学士，大学名称
 
 
-# 💬 Academic Services
-- Session Chair, ICCS 2022, ICCS 2023
-- Reviewer: IEEE TDSC, IEEE TSE, IEEE TSC, TISF, etc.
+# 💬 学术服务
+- 程序委员会主席，ICCS 2022, ICCS 2023
+- 审稿人：IEEE TDSC, IEEE TSE, IEEE TSC, TISF等
 
 
-# 🏆 Teaching & Supervision
-- Course Leader, "Network Attack and Defense" (网络攻击与防御) - Hubei Province First-class Course (湖北省一流课程)
-- Supervised over 10 national-level competition awards
+# 🏫 教学与指导
+- 课程负责人，"网络攻击与防御" - 湖北省一流课程
+- 指导学生获得国家级竞赛奖项10余项
 
 
-# 💻 Grants & Projects
-- National Natural Science Foundation of China (NSFC) Youth Project
-- Sub-project of Key Special Projects
-- Multiple Provincial and Ministerial Projects
-- 10+ Enterprise R&D Projects (e.g., Huawei)
+# 💻 科研项目
+- 国家自然科学基金青年项目
+- 重点专项子项目
+- 多项省部级项目
+- 10余项企业研发项目（如华为）
 
 
-# 📄 Patents
-- 8 Authorized National Invention Patents (国家技术发明专利8项)
+# 📄 专利
+- 授权国家技术发明专利8项
