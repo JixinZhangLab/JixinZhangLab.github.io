@@ -43,6 +43,22 @@ IEEE Transactions on Information Forensics and Security (TIFS), vol. 21, pp. 258
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ASP-DAC 2026</div><img src='images/papers/drlplace.png' alt="paper" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**DRLPlace: A Deep Reinforcement Learning-based Irregular and High-Density Printed Circuit Board Placement Method**
+
+L. Cai, K. Cheng, **J. Zhang** (Corresponding Author), H. Li, Z. Ye
+
+31st Asia and South Pacific Design Automation Conference (ASP-DAC), Lantau, Hong Kong, 2026, pp. 1414-1420
+
+[![IEEE](https://img.shields.io/badge/IEEE-10.1109/ASP--DAC66049.2026.11420655-blue)](https://doi.org/10.1109/ASP-DAC66049.2026.11420655)
+
+*CCF-C, EDA Top Conference*
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">PAKDD 2026</div><img src='images/papers/paper_img_1_fe271eb7.png' alt="paper" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
