@@ -6,8 +6,8 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Jixin Zhang"
-description              : "Personal Academic Homepage - Hubei University of Technology"
+title                    : "张吉昕"
+description              : "个人学术主页 - 湖北工业大学"
 repository               : "JixinZhangLab/JixinZhangLab.github.io"
 google_scholar_stats_use_cdn : true
 

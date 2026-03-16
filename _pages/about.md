@@ -19,7 +19,8 @@ redirect_from:
 📧 邮箱：zhangjx@hbut.edu.cn
 
 
-# 🔥 News
+<span class='anchor' id='news'></span>
+# 🔥 最新动态
 
 - *2026.03*: &nbsp;🎉 程轲、李海云、钟子鹏、张明宇、秦铮、张吉昕的论文"PPOM-Attack: A Substitute Model-Free Perturbation Prediction and Optimization Method for Black-Box Adversarial Attack Against Face Recognition"被IEEE Transactions on Information Forensics and Security (TIFS) 录用，祝贺程轲、李海云、钟子鹏！
 - *2026.01*: &nbsp;🎉 蔡磊、程轲、李海云、叶志强、张吉昕的论文"DRLPlace: A Deep Reinforcement Learning-based Irregular and High-Density Printed Circuit Board Placement Method"被The 31st Asia and South Pacific Design Automation Conference (ASP-DAC) 录用，祝贺蔡磊、程轲、李海云！
@@ -29,6 +30,7 @@ redirect_from:
 - *2023.02*: &nbsp;🎉 李海云、徐宁、刘明宇、张吉昕的论文"FanoutNet: A Neuralized PCB Fanout Automation Method Using Deep Reinforcement Learning"被The 37th AAAI Conference on Artificial Intelligence (AAAI) 录用，祝贺李海云！
 
 
+<span class='anchor' id='publications'></span>
 # 📘 发表论文
 
 在AAAI、DATE、ICC、TDSC、TIFS、IS、C&S等顶级期刊和会议上发表论文40余篇。
@@ -198,6 +200,7 @@ Cybersecurity, 2018
 </div>
 
 
+<span class='anchor' id='honors-and-awards'></span>
 # 🏆 荣誉与奖励
 - 中国通信学会科技进步二等奖
 - 华为"火花奖"
@@ -205,21 +208,25 @@ Cybersecurity, 2018
 - 信息安全/人工智能专业竞赛国家级一等奖5项
 
 
+<span class='anchor' id='educations'></span>
 # 🎓 教育经历
 - *201x - 201x*, 博士，湖南大学
 - *201x - 201x*, 学士，大学名称
 
 
+<span class='anchor' id='academic-services'></span>
 # 💬 学术服务
 - 程序委员会主席，ICCS 2022, ICCS 2023
 - 审稿人：IEEE TDSC, IEEE TSE, IEEE TSC, TISF等
 
 
+<span class='anchor' id='teaching--supervision'></span>
 # 🏫 教学与指导
 - 课程负责人，"网络攻击与防御" - 湖北省一流课程
 - 指导学生获得国家级竞赛奖项10余项
 
 
+<span class='anchor' id='grants-and-projects'></span>
 # 💻 科研项目
 - 国家自然科学基金青年项目
 - 重点专项子项目
@@ -227,5 +234,6 @@ Cybersecurity, 2018
 - 10余项企业研发项目（如华为）
 
 
+<span class='anchor' id='patents'></span>
 # 📄 专利
 - 授权国家技术发明专利8项
