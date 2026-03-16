@@ -22,7 +22,7 @@ I have hosted the National Natural Science Foundation Youth Project, special (ke
 <span class='anchor' id='news'></span>
 # 🔥 News
 
-- *2026.03.16*: &nbsp;🎉 实验室再次喜迎好消息！蔡磊同学论文顺利被TCAD录用（CCF-A，EDA领域顶刊）。
+- *2026.03*: &nbsp;🎉 Paper by L. Cai accepted by IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD), congratulations to L. Cai!
 - *2026.03*: &nbsp;🎉 Paper "PPOM-Attack: A Substitute Model-Free Perturbation Prediction and Optimization Method for Black-Box Adversarial Attack Against Face Recognition" by K. Cheng, H. Li, Z. Zhong accepted by IEEE Transactions on Information Forensics and Security (TIFS), congratulations to K. Cheng, H. Li, Z. Zhong!
 - *2026.01*: &nbsp;🎉 Paper "DRLPlace: A Deep Reinforcement Learning-based Irregular and High-Density Printed Circuit Board Placement Method" by L. Cai, K. Cheng, H. Li accepted by The 31st Asia and South Pacific Design Automation Conference (ASP-DAC), congratulations to L. Cai, K. Cheng, H. Li!
 - *2025.12*: &nbsp;🎉 Paper "KEFT: Knowledge-Enhanced Fine-Tuning for Large Language Models" by H. Li, K. Cheng accepted by Transactions of the Association for Computational Linguistics (TACL), congratulations to H. Li, K. Cheng!
