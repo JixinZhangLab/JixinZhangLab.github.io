@@ -25,7 +25,23 @@ I have presided over the National Natural Science Foundation of China (NSFC) You
 
 # 📝 Publications
 
-Selected publications in top-tier venues including AAAI, DATE, ICC, TDSC, IS, C&S, etc.
+Selected publications in top-tier venues including AAAI, DATE, ICC, TDSC, TIFS, IS, C&S, etc.
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TIFS 2026</div><img src='images/papers/ppom_attack.png' alt="paper" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**PPOM-Attack: A Substitute Model-Free Perturbation Prediction and Optimization Method for Black-Box Adversarial Attack Against Face Recognition**
+
+K. Cheng, **J. Zhang** (Corresponding Author), H. Li, Z. Zhong, M. Zhang, Z. Qin
+
+IEEE Transactions on Information Forensics and Security (TIFS), vol. 21, pp. 2580-2595, 2026
+
+[![IEEE](https://img.shields.io/badge/IEEE-10.1109/TIFS.2026.3666853-blue)](https://doi.org/10.1109/TIFS.2026.3666853)
+
+*CCF-A, CAS-Q1, JCR-Q1*
+
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">PAKDD 2026</div><img src='images/papers/paper_img_1_fe271eb7.png' alt="paper" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -35,15 +51,7 @@ Selected publications in top-tier venues including AAAI, DATE, ICC, TDSC, IS, C&
 PAKDD 2026
 
 </div>
-</div>
-
-- **Paper Title 1**  
-  Author1, Author2, Author3  
-  *Conference/Journal, Year*  
-
-- **Paper Title 2**  
-  Author1, Author2, Author3  
-  *Conference/Journal, Year*  
+</div>  
 
 
 # 🎖 Honors and Awards
