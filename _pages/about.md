@@ -20,7 +20,14 @@ I have presided over the National Natural Science Foundation of China (NSFC) You
 
 
 # 🔥 News
-- *2024.01*: &nbsp;🎉🎉 Welcome to my personal academic homepage!
+
+- *2026.03*: &nbsp;🎉 程轲、李海云、钟子朋、张明宇、秦铮、张吉昕的论文"PPOM-Attack: A Substitute Model-Free Perturbation Prediction and Optimization Method for Black-Box Adversarial Attack Against Face Recognition"被IEEE Transactions on Information Forensics and Security (TIFS) 录用，祝贺程轲、李海云、钟子朋、张明宇、秦铮！
+- *2026.01*: &nbsp;🎉 蔡磊、程轲、李海云、叶志强、张吉昕的论文"DRLPlace: A Deep Reinforcement Learning-based Irregular and High-Density Printed Circuit Board Placement Method"被The 31st Asia and South Pacific Design Automation Conference (ASP-DAC) 录用，祝贺蔡磊、程轲、李海云、叶志强！
+- *2025.12*: &nbsp;🎉 李海云、盛华、程轲、黄晓峰、张吉昕的论文"KEFT: Knowledge-Enhanced Fine-Tuning for Large Language Models"被Transactions of the Association for Computational Linguistics (TACL) 录用，祝贺李海云、盛华、程轲、黄晓峰！
+- *2025.11*: &nbsp;🎉 蔡磊、李海云、程轲、张吉昕的论文"SACPlace: A Simulated Annealing-Based Analog Circuit Placement Method"被Design, Automation & Test in Europe Conference (DATE) 录用，祝贺蔡磊、李海云、程轲！
+- *2025.10*: &nbsp;🎉 李海云、张吉昕的论文"MegaRoute: A Scalable Multi-Stage Routing Framework for Large-Scale PCBs"被Design, Automation & Test in Europe Conference (DATE) 录用，祝贺李海云！
+- *2024.06*: &nbsp;🎉 盛华、王志伟、张明宇、张吉昕的论文"L-Net: A Lightweight Convolutional Neural Network for Efficient Deep Learning"被Information Sciences (IS) 录用，祝贺盛华、王志伟、张明宇！
+- *2023.02*: &nbsp;🎉 李海云、徐宁、刘明宇、张吉昕的论文"FanoutNet: A Neuralized PCB Fanout Automation Method Using Deep Reinforcement Learning"被The 37th AAAI Conference on Artificial Intelligence (AAAI) 录用，祝贺李海云、徐宁、刘明宇！
 
 
 # 📝 Publications
