@@ -201,13 +201,13 @@ Cybersecurity, 2018
 
 
 <span class='anchor' id='honors-and-awards'></span>
-# 🏆 荣誉与奖励
+# 🏆 Honors and Awards
 
-## 科研奖励
+## Research Awards
 - 中国通信学会科技进步二等奖
 - 华为"火花奖"
 
-## 指导学生竞赛获奖
+## Student Competition Awards
 - 第十九届"挑战杯"全国大学生课外学术科技作品竞赛2024年度"揭榜挂帅"专项赛，全国特等奖（2024）
 - 第六届全球校园人工智能算法精英大赛，全国一等奖（2024）
 - 第二十一届全国大学生信息安全与对抗技术竞赛，全国一等奖1项、全国二等奖1项、全国三等奖1项（2024）
