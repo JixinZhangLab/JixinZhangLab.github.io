@@ -10,11 +10,11 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-**Jixin Zhang (张吉昕)** is an Associate Professor at the School of Computer Science and Artificial Intelligence, Hubei University of Technology (HBUT, 湖北工业大学). He serves as the Head of the Information Security Department. He received his Ph.D. from Hunan University (湖南大学) and was a visiting scholar at The Chinese University of Hong Kong (香港中文大学).
+I am an **Associate Professor** (副教授) at the School of Computer Science and Artificial Intelligence, Hubei University of Technology (HBUT, 湖北工业大学). I serve as the Head of the Information Security Department. I received my Ph.D. from Hunan University (湖南大学) and was a visiting scholar at The Chinese University of Hong Kong (香港中文大学).
 
-His research interests include **AI Security** (人工智能安全) and **Electronic Design Automation (EDA)**.
+My research interests include **AI Security** (人工智能安全) and **Electronic Design Automation (EDA)**.
 
-He has presided over the National Natural Science Foundation of China (NSFC) Youth Project, sub-projects of key special projects, and multiple provincial and ministerial projects. He has also led more than 10 enterprise technology R&D projects, including collaborations with Huawei. He has published over 40 papers in SCI journals and CCF international conferences, with more than 1,000 citations and an H-index of 18.
+I have presided over the National Natural Science Foundation of China (NSFC) Youth Project, sub-projects of key special projects, and multiple provincial and ministerial projects. I have also led more than 10 enterprise technology R&D projects, including collaborations with Huawei. I have published over 40 papers in SCI journals and CCF international conferences, with more than 1,000 citations and an H-index of 18.
 
 📧 Email: zhangjx@hbut.edu.cn
 
