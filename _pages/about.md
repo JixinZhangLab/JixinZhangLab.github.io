@@ -10,7 +10,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am an **Associate Professor** (副教授) at the School of Computer Science and Artificial Intelligence, Hubei University of Technology (HBUT, 湖北工业大学). I serve as the Head of the Information Security Department. I received my Ph.D. from Hunan University (湖南大学) and was a visiting scholar at The Chinese University of Hong Kong (香港中文大学).
+**Jixin Zhang (张吉昕)** is an **Associate Professor** (副教授) at the School of Computer Science and Artificial Intelligence, Hubei University of Technology (HBUT, 湖北工业大学). I serve as the Head of the Information Security Department. I received my Ph.D. from Hunan University (湖南大学) and was a visiting scholar at The Chinese University of Hong Kong (香港中文大学).
 
 My research interests include **AI Security** (人工智能安全) and **Electronic Design Automation (EDA)**.
 
