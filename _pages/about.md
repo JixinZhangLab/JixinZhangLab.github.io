@@ -201,26 +201,26 @@ Cybersecurity, 2018
 
 
 <span class='anchor' id='honors-and-awards'></span>
-# 🏆 Honors and Awards
+# 🏆 荣誉与奖励
 
-## Research Awards
-- Second Prize of China Communications Society for Science and Technology Progress
-- Huawei "Spark Award"
+## 科研奖励
+- 中国通信学会科技进步二等奖
+- 华为"火花奖"
 
-## Student Competition Awards
-- 19th "Challenge Cup" National College Student Curricular Academic Science and Technology Works Competition 2024 "Bang Bang" Special Competition, National Special Prize (2024)
-- 6th Global Campus Artificial Intelligence Algorithm Elite Competition, National First Prize (2024)
-- 21st National College Student Information Security and Confrontation Technology Competition, National First Prize 1, National Second Prize 1, National Third Prize 1 (2024)
-- 17th National College Student Information Security Competition, National Third Prize (2024)
-- 2024 Ruikang Robot Developer Competition Network Security Category, National Third Prize (2024)
-- 3rd Hubei Province College Student Xinchuang Competition Network Security Track, Gold Award (2024)
-- 16th National College Student Information Security Competition, National First Prize (2023)
-- 14th Blue Bridge Cup National Software and Information Technology Professional Talent Competition, National Second Prize (2023)
-- 15th National College Student Information Security Competition, National First Prize 1, National Third Prize 1 (2022)
-- 13th Blue Bridge Cup National Software and Information Technology Professional Talent Competition, National First Prize (2022)
-- 12th National College Student E-commerce "Innovation, Creativity and Entrepreneurship" Challenge, Hubei Province First Prize (2022)
-- 3rd Integrated Circuit EDA Design Elite Challenge, Enterprise Special Award 1, National First Prize 1, National Second Prize 1 (2021)
-- 12th Blue Bridge Cup National Software and Information Technology Professional Talent Competition, National Third Prize (2021)
+## 指导学生竞赛获奖
+- 第十九届"挑战杯"全国大学生课外学术科技作品竞赛2024年度"揭榜挂帅"专项赛，全国特等奖（2024）
+- 第六届全球校园人工智能算法精英大赛，全国一等奖（2024）
+- 第二十一届全国大学生信息安全与对抗技术竞赛，全国一等奖1项、全国二等奖1项、全国三等奖1项（2024）
+- 第十七届全国大学生信息安全竞赛，全国三等奖（2024）
+- 2024年睿抗机器人开发者大赛网络安全赛项，全国三等奖（2024）
+- 第三届湖北省大学生信创大赛网络安全赛道，金奖（2024）
+- 第十六届全国大学生信息安全竞赛，全国一等奖（2023）
+- 第十四届蓝桥杯全国软件和信息技术专业人才大赛，全国二等奖（2023）
+- 第十五届全国大学生信息安全竞赛，全国一等奖1项、全国三等奖1项（2022）
+- 第十三届蓝桥杯全国软件和信息技术专业人才大赛，全国一等奖（2022）
+- 第十二届全国大学生电子商务"创新、创意及创业"挑战赛，湖北省一等奖（2022）
+- 第三届集成电路EDA设计精英挑战赛，企业特别奖1项、全国一等奖1项、全国二等奖1项（2021）
+- 第十二届蓝桥杯全国软件和信息技术专业人才大赛，全国三等奖（2021）
 
 
 <span class='anchor' id='educations'></span>
