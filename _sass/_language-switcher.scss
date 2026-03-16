@@ -2,11 +2,18 @@
    LANGUAGE SWITCHER
    ========================================================================== */
 
+.masthead__inner-wrap {
+  position: relative;
+}
+
 .language-switcher-wrapper {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
   display: flex;
   align-items: center;
-  margin-left: 1rem;
-  position: relative;
+  z-index: 30;
 }
 
 .language-dropdown {
@@ -133,16 +140,16 @@
 
 /* Mobile responsive adjustments */
 @include breakpoint($medium) {
-  .masthead__menu {
-    .language-switcher-wrapper {
-      display: none;
-    }
+  .language-switcher-wrapper {
+    display: none;
   }
   
   /* Show language switcher in mobile menu */
   .hidden-links {
     .language-switcher-wrapper {
       display: flex;
+      position: static;
+      transform: none;
       width: 100%;
       padding: 1rem 0;
       border-top: 1px solid #e0e0e0;
