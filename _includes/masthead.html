@@ -6,8 +6,8 @@
         <ul class="visible-links">
           {% for link in site.data.navigation.main %}
             <li class="masthead__menu-item{% if forloop.first %} masthead__menu-item--lg masthead__menu-home-item{% endif %}">
-              <a href="{{ domain }}{{ link.url }}" class="nav-link" data-lang-key="{{ link.title }}">
-                {% if page.lang == 'zh' %}{{ link.title_zh }}{% else %}{{ link.title }}{% endif %}
+              <a href="{{ domain }}{{ link.url }}" class="nav-link">
+                {{ link.title }}
               </a>
             </li>
           {% endfor %}
@@ -15,7 +15,5 @@
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
-    <!-- Language Switcher - Fixed position -->
-    {% include language-switcher.html %}
   </div>
 </div>

@@ -7,17 +7,9 @@
 
 # Site Settings
 title                    : "Jixin Zhang"
-title_zh                 : "张吉昕"
 description              : "Academic homepage of JixinZhangLab - Hubei University of Technology"
-description_zh           : "JixinZhangLab 实验室学术主页 - 湖北工业大学"
 repository               : "JixinZhangLab/JixinZhangLab.github.io"
 google_scholar_stats_use_cdn : true
-
-# Language Settings
-default_lang             : "en"
-available_langs:
-  - "en"
-  - "zh"
 
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
