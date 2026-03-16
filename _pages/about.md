@@ -54,7 +54,7 @@ L. Cai, K. Cheng, **J. Zhang** (Corresponding Author), H. Li, Z. Ye
 
 [![IEEE](https://img.shields.io/badge/IEEE-10.1109/ASP--DAC66049.2026.11420655-blue)](https://doi.org/10.1109/ASP-DAC66049.2026.11420655)
 
-*CCF-C, EDA Top Conference*
+*CCF-C*
 
 </div>
 </div>
