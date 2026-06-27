@@ -19,9 +19,9 @@ members:
   publications:
   - title: 'HyRO: Hybrid Retrieval-Augmented Generation Framework for LLMs Integrating
       Vector Encoding and Knowledge Graphs'
-    authors: ''
+    authors: 'Wenkai Wu, Shuo Sheng, Xun Gan, Jixin Zhang'
     venue: PAKDD
-    year: 2026_2_23
+    year: 2026
     image: images/papers/figure.png
   links:
     homepage: ''
