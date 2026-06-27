@@ -197,14 +197,14 @@ The following public-facing summary is extracted from local CNVD/CNNVD certifica
 
 <div class='scroll-table' markdown="1">
 
-| Year | ID | Project / Product | Type & Severity | Certificate / Proof | GitHub Stars |
-| --- | --- | --- | --- | --- | --- |
-| 2025 | CNVD-2025-09293 | MaxKB, Hangzhou FIT2CLOUD Information Technology Co., Ltd. | Command execution, high risk | CNVD-YCGW-202503070704 | 1Panel-dev/MaxKB, 21,531 stars checked on 2026-06-27 |
-| 2025 | CNVD-2025-17714 | Seeyon OA, Beijing Seeyon Internet Software Corp. | Command execution, high risk | CNVD-YCGW-202506022688 | No clear public GitHub repository identified |
-| 2025 | CNVD-2025-17956 | Yima Smart Energy Management Platform | Multiple SQL injection vulnerabilities, medium risk | CNVD-YCGW-202506002440 | No clear public GitHub repository identified |
-| 2025 | CNVD-2025-18398 | Yima Energy Data Management System | SQL injection, high risk | CNVD-YCGW-202506061209 | No clear public GitHub repository identified |
-| 2025 | CNNVD-2025-96738899 | Project name not disclosed in certificate | High risk | CNNVD vulnerability certificate, submitted by Shuo Sheng and Jixin Zhang | Not applicable |
-| 2025 | CNNVD aggregate proof | Multiple submitted vulnerabilities | 9 total: 1 high, 7 medium, 1 low | Proof issued by China Information Technology Security Evaluation Center on 2025-12-18 | Not applicable |
+| Year | ID | Project / Product | Certificate Name / Contributor | Type & Severity | Certificate / Proof | GitHub Stars |
+| --- | --- | --- | --- | --- | --- | --- |
+| 2025 | CNVD-2025-09293 | MaxKB, Hangzhou FIT2CLOUD Information Technology Co., Ltd. | 盛烁 | Command execution, high risk | CNVD-YCGW-202503070704 | 1Panel-dev/MaxKB, 21,531 stars checked on 2026-06-27 |
+| 2025 | CNVD-2025-17714 | Seeyon OA, Beijing Seeyon Internet Software Corp. | 盛烁; 张吉昕 | Command execution, high risk | CNVD-YCGW-202506022688 | No clear public GitHub repository identified |
+| 2025 | CNVD-2025-17956 | Yima Smart Energy Management Platform | 盛烁; 张吉昕 | Multiple SQL injection vulnerabilities, medium risk | CNVD-YCGW-202506002440 | No clear public GitHub repository identified |
+| 2025 | CNVD-2025-18398 | Yima Energy Data Management System | 盛烁; 张吉昕 | SQL injection, high risk | CNVD-YCGW-202506061209 | No clear public GitHub repository identified |
+| 2025 | CNNVD-2025-96738899 | Project name not disclosed in certificate | 盛烁; 张吉昕 | High risk | CNNVD vulnerability certificate, submitted on 2025-06-13 | Not applicable |
+| 2025 | CNNVD aggregate proof | Multiple submitted vulnerabilities | 盛烁; 张吉昕 | 9 total: 1 high, 7 medium, 1 low | Proof issued by China Information Technology Security Evaluation Center on 2025-12-18 | Not applicable |
 
 </div>
 
@@ -245,6 +245,8 @@ The following public-facing summary is extracted from local CNVD/CNNVD certifica
 - Huawei "Spark Award"
 
 ## Student Competition Awards
+
+Named certificate holders are listed with each award when available. The list below summarizes lab-supervised student competition awards.
 
 - 第十九届"挑战杯"全国大学生课外学术科技作品竞赛2024年度"揭榜挂帅"专项赛，全国特等奖（2024）
 - 第六届全球校园人工智能算法精英大赛，全国一等奖（2024）
