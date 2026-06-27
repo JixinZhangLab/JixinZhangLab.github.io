@@ -18,7 +18,7 @@ redirect_from:
 - *2026.03*: &nbsp;🎉 Paper "PPOM-Attack: A Substitute Model-Free Perturbation Prediction and Optimization Method for Black-Box Adversarial Attack Against Face Recognition" accepted by IEEE Transactions on Information Forensics and Security (TIFS), congratulations to K. Cheng, H. Li, and Z. Zhong!
 - *2026.01*: &nbsp;🎉 Paper "DRLPlace: A Deep Reinforcement Learning-based Irregular and High-Density Printed Circuit Board Placement Method" accepted by ASP-DAC 2026, congratulations to L. Cai, K. Cheng, and H. Li!
 - *2025.12*: &nbsp;🎉 Paper "KEFT: Knowledge-Enhanced Fine-Tuning for Large Language Models in Domain-Specific Question Answering" accepted by Transactions of the Association for Computational Linguistics (TACL).
-- *2025.11*: &nbsp;🎉 Paper "HyRO: Hybrid Retrieval-Augmented Generation Framework for LLMs Integrating Vector Encoding and Knowledge Graphs" accepted by PAKDD 2026, congratulations to W. Wu, S. Sheng, X. Gan, and J. Zhang!
+- *2026.02*: &nbsp;🎉 Paper "HyRO: Hybrid Retrieval-Augmented Generation Framework for LLMs Integrating Vector Encoding and Knowledge Graphs" accepted by PAKDD 2026, congratulations to W. Wu, S. Sheng, X. Gan, and J. Zhang!
 - *2025*: &nbsp;🎉 Paper "SACPlace: Multi-Agent Deep Reinforcement Learning for Symmetry-Aware Analog Circuit Placement" appeared at DATE 2025.
 - *2025*: &nbsp;🎉 Paper "MegaRoute: Universal Automated Large-Scale PCB Routing Method with Adaptive Step-Size Search" appeared at DATE 2025.
 - *2025.06*: &nbsp;🎉 CNVD certificates recognized vulnerabilities in MaxKB, Seeyon OA, and energy management systems.
