@@ -14,7 +14,7 @@ I am **Jixin Zhang**, Associate Professor and Head of the Information Security D
 
 The **Jixin Zhang Lab** works at the intersection of **Artificial Intelligence Security**, **Electronic Design Automation (EDA)**, and **trustworthy intelligent systems**. Our research covers adversarial AI, malware analysis, vulnerability mining, large language model security, PCB/IC automation, and secure data sharing.
 
-The lab has hosted the National Natural Science Foundation Youth Project, special key project sub-projects, provincial and ministerial projects, and more than 10 enterprise R&D collaborations, including cooperation with Huawei. We have published more than 40 papers in SCI journals and CCF-recognized conferences, including AAAI, DATE, ICC, TDSC, TIFS, TACL, TCAD, Information Sciences, and Computers & Security. The team has also produced granted invention patents, registered software copyrights, national vulnerability certificates, and multiple national-level student competition awards.
+The lab has hosted the National Natural Science Foundation Youth Project, special key project sub-projects, provincial and ministerial projects, and more than 10 enterprise R&D collaborations, including cooperation with Huawei. We have published more than 40 papers in SCI journals and CCF-recognized conferences, including IJCAI, AAAI, DATE, ICC, TDSC, TIFS, TACL, TCAD, Information Sciences, and Computers & Security. The team has also produced granted invention patents, registered software copyrights, national vulnerability certificates, and multiple national-level student competition awards.
 
 📧 Email: zhangjx@hbut.edu.cn
 
@@ -28,6 +28,7 @@ The lab has hosted the National Natural Science Foundation Youth Project, specia
 <span class='anchor' id='news'></span>
 # 🔥 News
 
+- *2026.06*: &nbsp;🎉 Paper "PENTESTLLMAGENT" by S. Sheng (First Author) accepted by IJCAI 2026 (AI4Tech Track), congratulations to S. Sheng!
 - *2026.04*: &nbsp;🎉 The invention patent "基于多模态数据的风险摘要生成方法" was granted.
 - *2026.03*: &nbsp;🎉 Three software copyrights were registered for LLM-based penetration testing, AgentFix, and multi-source heterogeneous QA systems.
 - *2026.03*: &nbsp;🎉 Paper by L. Cai accepted by IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD), congratulations to L. Cai!
@@ -49,12 +50,28 @@ The lab has hosted the National Natural Science Foundation Youth Project, specia
 
 PDF links are hosted locally for academic reading. Rankings are shown in the requested order: CORE A*/A first when available, then CCF, SCI, CAS, and JCR rankings.
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJCAI 2026</div><img src='images/papers/pentestllmagent.png' alt="PENTESTLLMAGENT framework" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**PENTESTLLMAGENT: A Task Dependency Graph Planning-Based Multi-Agent Framework for Automated Penetration Testing**
+
+[S. Sheng](https://github.com/sanbai123/PentestLLMAgent) (First Author), **[J. Zhang](https://dblp.org/pid/158/7442.html)** (Corresponding Author), J. Yang, [K. Cheng](https://dblp.org/pid/81/3800.html), [Z. Qin](https://dblp.org/pid/95/6861-1.html)
+
+International Joint Conference on Artificial Intelligence (IJCAI), AI4Tech Track, 2026
+
+[IJCAI Accepted Paper](https://2026.ijcai.org/accepted-papers/) · [PDF](files/papers/ijcai-2026-pentestllmagent.pdf) · [Code](https://github.com/sanbai123/PentestLLMAgent)
+
+Rankings: <span class="rank-tags">CORE A* · CCF-B</span>
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TCAD 2026</div><img src='images/papers/drlplace.png' alt="TCAD paper" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **ISPCBPlace: A Gradient-Based Placement Method for Irregular-Shaped PCBs under Complex Design Constraints**
 
-L. Cai, **J. Zhang** (Corresponding Author), K. Cheng, H. Li, Z. Ye, M. Liu
+[L. Cai](https://dblp.org/pid/60/7674.html), **[J. Zhang](https://dblp.org/pid/158/7442.html)** (Corresponding Author), [K. Cheng](https://dblp.org/pid/81/3800.html), [H. Li](https://dblp.org/pid/62/9302.html), Z. Ye, M. Liu
 
 IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD), 2026
 
@@ -70,7 +87,7 @@ Rankings: <span class="rank-tags">CCF-A</span>
 
 **PPOM-Attack: A Substitute Model-Free Perturbation Prediction and Optimization Method for Black-Box Adversarial Attack Against Face Recognition**
 
-K. Cheng, **J. Zhang** (Corresponding Author), H. Li, Z. Zhong, M. Zhang, Z. Qin
+[K. Cheng](https://dblp.org/pid/81/3800.html), **[J. Zhang](https://dblp.org/pid/158/7442.html)** (Corresponding Author), [H. Li](https://dblp.org/pid/62/9302.html), Z. Zhong, M. Zhang, [Z. Qin](https://dblp.org/pid/95/6861-1.html)
 
 IEEE Transactions on Information Forensics and Security (TIFS), vol. 21, pp. 2580-2595, 2026
 
@@ -86,7 +103,7 @@ Rankings: <span class="rank-tags">CCF-A · CAS Q1 · JCR Q1</span>
 
 **DRLPlace: A Deep Reinforcement Learning-based Irregular and High-Density Printed Circuit Board Placement Method**
 
-L. Cai, K. Cheng, **J. Zhang** (Corresponding Author), H. Li, Z. Ye
+[L. Cai](https://dblp.org/pid/60/7674.html), [K. Cheng](https://dblp.org/pid/81/3800.html), **[J. Zhang](https://dblp.org/pid/158/7442.html)** (Corresponding Author), [H. Li](https://dblp.org/pid/62/9302.html), Z. Ye
 
 31st Asia and South Pacific Design Automation Conference (ASP-DAC), 2026, pp. 1414-1420
 
@@ -102,7 +119,7 @@ Rankings: <span class="rank-tags">CCF-C</span>
 
 **KEFT: Knowledge-Enhanced Fine-Tuning for Large Language Models in Domain-Specific Question Answering**
 
-H. Li, **J. Zhang** (Corresponding Author), H. Shen, K. Cheng, X. Huang
+[H. Li](https://dblp.org/pid/62/9302.html), **[J. Zhang](https://dblp.org/pid/158/7442.html)** (Corresponding Author), H. Shen, [K. Cheng](https://dblp.org/pid/81/3800.html), X. Huang
 
 Transactions of the Association for Computational Linguistics, vol. 13, pp. 1056-1067, 2025
 
@@ -118,7 +135,7 @@ Rankings: <span class="rank-tags">CCF-B · JCR Q1</span>
 
 **SACPlace: Multi-Agent Deep Reinforcement Learning for Symmetry-Aware Analog Circuit Placement**
 
-L. Cai, G. Ge, G. Zhu, **J. Zhang** (Corresponding Author), J. Wang, B. Jia, N. Xu
+[L. Cai](https://dblp.org/pid/60/7674.html), G. Ge, G. Zhu, **[J. Zhang](https://dblp.org/pid/158/7442.html)** (Corresponding Author), J. Wang, B. Jia, N. Xu
 
 Design, Automation & Test in Europe Conference (DATE), 2025
 
@@ -134,7 +151,7 @@ Rankings: <span class="rank-tags">CCF-B</span>
 
 **MegaRoute: Universal Automated Large-Scale PCB Routing Method with Adaptive Step-Size Search**
 
-H. Li, **J. Zhang** (Corresponding Author)
+[H. Li](https://dblp.org/pid/62/9302.html), **[J. Zhang](https://dblp.org/pid/158/7442.html)** (Corresponding Author)
 
 Design, Automation & Test in Europe Conference (DATE), 2025
 
@@ -150,7 +167,7 @@ Rankings: <span class="rank-tags">CCF-B</span>
 
 **L-Net: A Lightweight Convolutional Neural Network for Devices with Low Computing Power**
 
-H. Shen, Z. Wang, **J. Zhang** (Corresponding Author), M. Zhang
+H. Shen, Z. Wang, **[J. Zhang](https://dblp.org/pid/158/7442.html)** (Corresponding Author), M. Zhang
 
 Information Sciences, vol. 660, 2024
 
@@ -166,7 +183,7 @@ Rankings: <span class="rank-tags">CCF-B · CAS Q1 · JCR Q1</span>
 
 **FanoutNet: A Neuralized PCB Fanout Automation Method Using Deep Reinforcement Learning**
 
-H. Li, **J. Zhang** (Corresponding Author), N. Xu, M. Liu
+[H. Li](https://dblp.org/pid/62/9302.html), **[J. Zhang](https://dblp.org/pid/158/7442.html)** (Corresponding Author), N. Xu, M. Liu
 
 AAAI Conference on Artificial Intelligence (AAAI), 2023
 
