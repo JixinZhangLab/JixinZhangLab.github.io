@@ -16,9 +16,9 @@ redirect_from:
 - *2026.03*: &nbsp;🎉 Three software copyrights were registered for LLM-based penetration testing, AgentFix, and multi-source heterogeneous QA systems.
 - *2026.03*: &nbsp;🎉 Paper "ISPCBPlace: A Gradient-Based Placement Method for Irregular-Shaped PCBs under Complex Design Constraints" accepted by IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD), congratulations to L. Cai!
 - *2026.03*: &nbsp;🎉 Paper "PPOM-Attack: A Substitute Model-Free Perturbation Prediction and Optimization Method for Black-Box Adversarial Attack Against Face Recognition" accepted by IEEE Transactions on Information Forensics and Security (TIFS), congratulations to K. Cheng, H. Li, and Z. Zhong!
+- *2026.02*: &nbsp;🎉 Paper "HyRO: Hybrid Retrieval-Augmented Generation Framework for LLMs Integrating Vector Encoding and Knowledge Graphs" accepted by PAKDD 2026, congratulations to W. Wu, S. Sheng, X. Gan, and J. Zhang!
 - *2026.01*: &nbsp;🎉 Paper "DRLPlace: A Deep Reinforcement Learning-based Irregular and High-Density Printed Circuit Board Placement Method" accepted by ASP-DAC 2026, congratulations to L. Cai, K. Cheng, and H. Li!
 - *2025.12*: &nbsp;🎉 Paper "KEFT: Knowledge-Enhanced Fine-Tuning for Large Language Models in Domain-Specific Question Answering" accepted by Transactions of the Association for Computational Linguistics (TACL).
-- *2026.02*: &nbsp;🎉 Paper "HyRO: Hybrid Retrieval-Augmented Generation Framework for LLMs Integrating Vector Encoding and Knowledge Graphs" accepted by PAKDD 2026, congratulations to W. Wu, S. Sheng, X. Gan, and J. Zhang!
 - *2025*: &nbsp;🎉 Paper "SACPlace: Multi-Agent Deep Reinforcement Learning for Symmetry-Aware Analog Circuit Placement" appeared at DATE 2025.
 - *2025*: &nbsp;🎉 Paper "MegaRoute: Universal Automated Large-Scale PCB Routing Method with Adaptive Step-Size Search" appeared at DATE 2025.
 - *2025.06*: &nbsp;🎉 CNVD certificates recognized vulnerabilities in MaxKB, Seeyon OA, and energy management systems.
@@ -28,13 +28,15 @@ redirect_from:
 
 I am **Jixin Zhang**, Associate Professor and Head of the Information Security Department at the School of Computer Science and Artificial Intelligence, Hubei University of Technology. I received my Ph.D. from Hunan University and was a visiting scholar at The Chinese University of Hong Kong.
 
-The **Jixin Zhang Lab** works at the intersection of **Artificial Intelligence Security**, **Electronic Design Automation (EDA)**, and **trustworthy intelligent systems**. The lab has hosted the National Natural Science Foundation Youth Project, special key project sub-projects, provincial and ministerial projects, and more than 10 enterprise R&D collaborations, including cooperation with Huawei.
+The **Jixin Zhang Lab** works at the intersection of **Artificial Intelligence Security**, **Electronic Design Automation (EDA)**, and **trustworthy intelligent systems**. The lab has hosted the National Natural Science Foundation Youth Project, a National Natural Science Foundation special key-project subtask, provincial and ministerial projects, and more than 10 enterprise R&D collaborations, including cooperation with Huawei, JLC, and other partners. According to the Hubei University of Technology graduate-school profile, Prof. Zhang has published 40+ SCI/CCF papers, including 18 first-author or corresponding-author papers; the profile reports 1000+ total citations and an H-index of 18. He has received the China Communications Society Science and Technology Progress Second Prize and Huawei "Spark Award", holds 8 granted invention patents, and has guided students to 10+ national competition awards.
 
 📧 Email: zhangjx@hbut.edu.cn
 
 <div class="lab-stats">
   <div><strong>40+</strong><span>SCI/CCF papers</span></div>
-  <div><strong>3</strong><span>Public patent records listed</span></div>
+  <div><strong>18</strong><span>First/corresponding papers</span></div>
+  <div><strong>1000+</strong><span>Citations reported by HBUT profile</span></div>
+  <div><strong>8</strong><span>Granted invention patents</span></div>
   <div><strong>5</strong><span>Software copyrights listed</span></div>
   <div><strong>9</strong><span>Reported vulnerabilities</span></div>
 </div>
@@ -43,6 +45,43 @@ The **Jixin Zhang Lab** works at the intersection of **Artificial Intelligence S
 - **Malware and System Security:** malware variant detection, packed malware analysis, semantic malware modeling, and secure data sharing.
 - **EDA and Intelligent Design Automation:** PCB routing, PCB placement, analog circuit placement, and reinforcement learning for electronic design.
 - **Knowledge-Enhanced LLM Systems:** domain-specific question answering, knowledge graph retrieval, and multi-source heterogeneous data integration.
+
+<span class='anchor' id='research-projects'></span>
+# 💻 Research Projects
+
+The following project list supplements the existing site content with the vertical and industry-funded projects listed in the Hubei University of Technology graduate-school profile.
+
+## Vertical Research Projects
+
+<div class='scroll-table' markdown="1">
+
+| No. | Project | Grant / Program | Period | Role |
+| --- | --- | --- | --- | --- |
+| 1 | 抵御对抗样本攻击的恶意代码智能分析方法研究 | National Natural Science Foundation of China Youth Project, 62002106 | 2021-01 to 2023-12 | PI / Project Leader |
+| 2 | 基于安全表征空间分割与导引的模型内在可控理论 | National Natural Science Foundation of China Special Project, 62441233 | 2025-01 to 2026-12 | Participant / Subtask Leader |
+| 3 | 云环境下支持机器学习的加密技术研究 | National Natural Science Foundation of China General Program, 61772191 | 2018-01 to 2021-12 | Participant / Core Researcher |
+| 4 | 配电网广域测量控制技术研究与应用 | National Key R&D Program Project, 2017YFGX100048 | 2017-07 to 2020-12 | Participant / Core Researcher |
+
+</div>
+
+## Industry-Funded Research Projects
+
+<div class='scroll-table' markdown="1">
+
+| No. | Partner | Project | Contract / Period | Role |
+| --- | --- | --- | --- | --- |
+| 5 | Huawei | 基于多目标优化的PCB快速布线算法及可进化的PCB布局算法研究项目 | TC20230711092; 2023-08 to 2024-12 | PI / Project Leader |
+| 6 | Shenzhen JLC Technology Group Co., Ltd. | 基于多层路径规划的多网络解交叉布线算法（一/二/三期） | 2023-07 to present | PI / Project Leader |
+| 7 | Wuxi Zhongwei Yixin Co., Ltd. | 基于深度强化学习的FPGA自动布局技术 | 2023-11 to 2024-06 | PI / Project Leader |
+| 8 | Hubei University of Economics | 基于多模态代理机制的开放金融平台 | 2024-11 to 2025-08 | PI / Project Leader |
+| 9 | Changsha Hengtu Xingchen Network Technology Co., Ltd. | 视频图像大数据智能审查系统 | 2022-10 to 2023-04 | PI / Project Leader |
+| 10 | Shenzhen Intermediate People's Court / Shenzhen DIB Enterprise Risk Management Technology Co., Ltd. | 人工智能大模型辅助智能审判 | 2023-09 to 2024-12 | Participant / Technical Expert |
+| 11 | Huawei | PCB自动化辅助工具 | TC20210806003; 2021-09 to 2022-08 | Participant / R&D Lead |
+| 12 | Huawei | PCB辅助互联工具 | YBTC20182452NDA; 2020-02 to 2021-02 | Participant / R&D Lead |
+| 13 | Yifeng Pharmacy Chain Co., Ltd. | 销量预测与智能补货系统 | 2020-06 to 2020-11 | Participant / R&D Lead |
+| 14 | Yifeng Pharmacy Chain Co., Ltd. | 医药知识图谱与精准营销 | 2015-11 to 2016-05 | Participant / R&D Lead |
+
+</div>
 
 <span class='anchor' id='publications'></span>
 # 📘 Publications
@@ -200,11 +239,27 @@ Rankings: <span class="rank-tags">CCF-B · CAS Q1 · JCR Q1</span>
 
 [H. Li](mailto:lihaiyun24@mails.tsinghua.edu.cn), **[J. Zhang](https://orcid.org/0000-0001-6890-8953)** (Corresponding Author), [N. Xu](mailto:xuning@whut.edu.cn), M. Liu
 
-AAAI Conference on Artificial Intelligence (AAAI), 2023, pp. 8554-8561
+AAAI Conference on Artificial Intelligence (AAAI), oral presentation, 2023, pp. 8554-8561
 
 [DOI](https://doi.org/10.1609/aaai.v37i7.26030) · [PDF](files/papers/aaai-2023-fanoutnet.pdf)
 
 Rankings: <span class="rank-tags">CORE A* · CCF-A</span>
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">iScience 2023</div><img src='images/papers/paper_img_1_fe271eb7.png' alt="TDV-Attention BiGRU paper" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**A TDV-Attention based BiGRU Network for AIS-based Vessel Trajectory Prediction**
+
+J. Chen, **[J. Zhang](https://orcid.org/0000-0001-6890-8953)** (Corresponding Author), H. Chen, Y. Zhao, H. Wang
+
+iScience, vol. 26, article 106383, 2023
+
+[DOI](https://doi.org/10.1016/j.isci.2023.106383)
+
+Rankings: <span class="rank-tags">CAS Q2 · JCR Q1</span>
 
 </div>
 </div>
@@ -236,7 +291,7 @@ IEEE Transactions on Dependable and Secure Computing (TDSC), 2021
 
 [DOI](https://doi.org/10.1109/TDSC.2021.3080282) · [PDF](files/papers/tdsc-2021-pbaa.pdf)
 
-Rankings: <span class="rank-tags">CCF-A · JCR Q1</span>
+Rankings: <span class="rank-tags">CCF-A · CAS Q2 · JCR Q1</span>
 
 </div>
 </div>
@@ -252,7 +307,9 @@ Computers & Security, vol. 84, pp. 376-392, 2019
 
 [DOI](https://doi.org/10.1016/j.cose.2019.04.005) · [PDF](files/papers/computers-security-2019-feature-hybrid-malware.pdf)
 
-Rankings: <span class="rank-tags">CCF-B</span>
+Rankings: <span class="rank-tags">CCF-B · CAS Q3 · JCR Q1</span>
+
+Citation note: 100+ Google Scholar citations reported by the HBUT profile.
 
 </div>
 </div>
@@ -268,6 +325,10 @@ IEEE Access, vol. 7, pp. 5682-5694, 2019
 
 [DOI](https://doi.org/10.1109/ACCESS.2018.2889754) · [PDF](files/papers/ieee-access-2019-cp-abse.pdf)
 
+Rankings: <span class="rank-tags">CAS Q3 · JCR Q2</span>
+
+Citation note: 100+ Google Scholar citations reported by the HBUT profile.
+
 </div>
 </div>
 
@@ -282,7 +343,23 @@ Cybersecurity, vol. 1, article 10, 2018
 
 [DOI](https://doi.org/10.1186/s42400-018-0010-y) · [PDF](files/papers/cybersecurity-2018-packed-malware-detection.pdf)
 
-Rankings: <span class="rank-tags">JCR Q1</span>
+Rankings: <span class="rank-tags">CCF-C · CAS Q4 · JCR Q1</span>
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCCN 2016</div><img src='images/papers/malware_detection.png' alt="Opcode image recognition with small training sets paper" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Malware Variant Detection Using Opcode Image Recognition with Small Training Sets**
+
+**[J. Zhang](https://orcid.org/0000-0001-6890-8953)**, [Z. Qin](https://orcid.org/0000-0003-0877-3887), [H. Yin](mailto:yhui@ccsu.edu.cn), L. Ou, S. Xiao, Y. Hu
+
+IEEE International Conference on Computer Communication and Networks (ICCCN), 2016
+
+[DOI](https://doi.org/10.1109/ICCCN.2016.7568542)
+
+Rankings: <span class="rank-tags">CCF-C</span>
 
 </div>
 </div>
@@ -307,6 +384,8 @@ Rankings: <span class="rank-tags">CCF-C</span>
 # 📄 Patents & Software Copyrights
 
 ## Granted Invention Patents
+
+The HBUT graduate-school profile reports 8 granted invention patents. Public and certificate-backed entries currently available for the website are listed below.
 
 <div class='scroll-table' markdown="1">
 
@@ -344,19 +423,19 @@ Rankings: <span class="rank-tags">CCF-C</span>
 
 Named certificate holders are listed with each award when available. The list below summarizes lab-supervised student competition awards.
 
-- 第十九届"挑战杯"全国大学生课外学术科技作品竞赛2024年度"揭榜挂帅"专项赛，全国特等奖（2024）
-- 第六届全球校园人工智能算法精英大赛，全国一等奖（2024）
-- 第二十一届全国大学生信息安全与对抗技术竞赛，全国一等奖1项、全国二等奖1项、全国三等奖1项（2024）
-- 第十七届全国大学生信息安全竞赛，全国三等奖（2024）
-- 2024年睿抗机器人开发者大赛网络安全赛项，全国三等奖（2024）
-- 第三届湖北省大学生信创大赛网络安全赛道，金奖（2024）
-- 第十六届全国大学生信息安全竞赛，全国一等奖（2023）
-- 第十四届蓝桥杯全国软件和信息技术专业人才大赛，全国二等奖（2023）
-- 第十五届全国大学生信息安全竞赛，全国一等奖1项、全国三等奖1项（2022）
-- 第十三届蓝桥杯全国软件和信息技术专业人才大赛，全国一等奖（2022）
-- 第十二届全国大学生电子商务"创新、创意及创业"挑战赛，湖北省一等奖（2022）
-- 第三届集成电路EDA设计精英挑战赛，企业特别奖1项、全国一等奖1项、全国二等奖1项（2021）
-- 第十二届蓝桥杯全国软件和信息技术专业人才大赛，全国三等奖（2021）
+- 第十九届"挑战杯"全国大学生课外学术科技作品竞赛2024年度"揭榜挂帅"专项赛，全国特等奖1项（2024）；张吉昕，指导老师，排名2/3。
+- 第六届全球校园人工智能算法精英大赛，全国一等奖1项（2024）；张吉昕，指导老师，排名1/1。
+- 第二十一届全国大学生信息安全与对抗技术竞赛，全国一等奖1项、全国二等奖1项、全国三等奖1项（2024）；张吉昕，指导老师，排名1/1。
+- 第十七届全国大学生信息安全竞赛，全国三等奖1项（2024）；张吉昕，指导老师，排名1/1。
+- 2024年睿抗机器人开发者大赛网络安全赛项，全国三等奖1项（2024）；张吉昕，指导老师，排名1/1。
+- 第三届湖北省大学生信创大赛网络安全赛道，金奖1项（2024）；张吉昕，指导老师，排名1/1。
+- 第十六届全国大学生信息安全竞赛，全国一等奖1项（2023）；张吉昕，指导老师，排名1/1。
+- 第十四届蓝桥杯全国软件和信息技术专业人才大赛，全国二等奖1项（2023）；张吉昕，指导老师，排名1/1。
+- 第十五届全国大学生信息安全竞赛，全国一等奖1项、全国三等奖1项（2022）；张吉昕，指导老师，排名1/1。
+- 第十三届蓝桥杯全国软件和信息技术专业人才大赛，全国一等奖1项（2022）；张吉昕，指导老师，排名1/1。
+- 第十二届全国大学生电子商务"创新、创意及创业"挑战赛，湖北省一等奖1项（2022）；张吉昕，指导老师，排名1/2。
+- 第三届集成电路EDA设计精英挑战赛，企业特别奖1项、全国一等奖1项、全国二等奖1项（2021）；张吉昕，指导老师，排名1/1。
+- 第十二届蓝桥杯全国软件和信息技术专业人才大赛，全国三等奖1项（2021）；张吉昕，指导老师，排名1/1。
 
 <span class='anchor' id='security-disclosures'></span>
 # 🛡️ Security Disclosures
@@ -385,7 +464,7 @@ The following public-facing summary is extracted from local CNVD/CNNVD certifica
 <span class='anchor' id='academic-services'></span>
 # 💬 Academic Services
 
-- Program Committee Chair, ICCS 2022 and ICCS 2023
+- Session Chair, ICCS 2022 and ICCS 2023
 - Reviewer for IEEE TDSC, IEEE TSE, IEEE TSC, TIFS, and other international journals
 
 <span class='anchor' id='teaching-supervision'></span>

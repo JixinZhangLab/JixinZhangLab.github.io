@@ -6,20 +6,23 @@ main:
   - title: "News"
     url: "/#-news"
 
-  - title: "Publications"
-    url: "/#-publications"
-
   - title: "Research"
     url: "/#-research-directions"
 
-  - title: "Security"
-    url: "/#-security-disclosures"
+  - title: "Projects"
+    url: "/#-research-projects"
+
+  - title: "Publications"
+    url: "/#-publications"
 
   - title: "IP"
     url: "/#-intellectual-property"
 
   - title: "Honors & Awards"
     url: "/#-honors-and-awards"
+
+  - title: "Security"
+    url: "/#-security-disclosures"
 
   - title: "Education"
     url: "/#-education"
