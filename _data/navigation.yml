@@ -9,14 +9,23 @@ main:
   - title: "Publications"
     url: "/#-publications"
 
+  - title: "Research"
+    url: "/#-research-directions"
+
+  - title: "Security"
+    url: "/#-security-disclosures"
+
+  - title: "IP"
+    url: "/#-intellectual-property"
+
   - title: "Honors & Awards"
     url: "/#-honors-and-awards"
 
   - title: "Education"
-    url: "/#-educations"
+    url: "/#-education"
 
   - title: "Academic Services"
     url: "/#-academic-services"
 
   - title: "Teaching & Supervision"
-    url: "/#-teaching--supervision"
+    url: "/#-teaching-supervision"

@@ -107,3 +107,49 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+
+.lab-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: .75rem;
+    margin: 1.5rem 0 2rem;
+
+    div {
+        border-left: 4px solid #0066a0;
+        background: #f6f8fa;
+        padding: .8rem .9rem;
+    }
+
+    strong {
+        display: block;
+        color: #00369f;
+        font-size: 1.6rem;
+        line-height: 1.1;
+    }
+
+    span {
+        display: block;
+        margin-top: .2rem;
+        color: #4a4a4a;
+        font-size: .9rem;
+    }
+}
+
+.rank-tags {
+    display: inline-block;
+    color: #00369f;
+    font-weight: 700;
+}
+
+.scroll-table {
+    overflow-x: auto;
+    margin: 1rem 0 1.5rem;
+
+    table {
+        min-width: 760px;
+    }
+}
+
+.visitor-counter span {
+    font-weight: 700;
+}
